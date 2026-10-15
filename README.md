@@ -102,7 +102,6 @@ dim a bedside lamp.
 </p>
 <p align="center">
   <img width="290" alt="Add a lamp" src="https://github.com/user-attachments/assets/5192e999-d5d8-46c0-aaaa-6e170cca3c09">
-  <img width="290" alt="Sidebar" src="https://github.com/user-attachments/assets/312c5749-5b40-47bd-995f-b6fc93c38cdd">
   <img width="290" alt="Instructions" src="https://github.com/user-attachments/assets/80b5696d-c6ff-4952-82cd-30ddd1f5f7ed">
 </p>
 
