@@ -12,6 +12,12 @@ No account · No internet · No server · English + 简体中文
 ![Languages](https://img.shields.io/badge/UI-English%20%7C%20%E4%B8%AD%E6%96%87-orange)
 ![Status](https://img.shields.io/badge/status-early%20release-yellow)
 
+<p align="center">
+  <a href="https://github.com/geethut-stack/BLE-ADV-for-Humans/releases/download/0.1.0/app-debug.apk">
+    <img alt="Download APK" src="https://img.shields.io/badge/Download-APK_0.1.0-9A5B00?style=for-the-badge&logo=android&logoColor=white">
+  </a>
+</p>
+
 </div>
 
 ---
@@ -101,9 +107,6 @@ dim a bedside lamp.
   <img width="49%" alt="Sidebar" src="https://github.com/user-attachments/assets/38c08262-d590-486c-8a05-de33baadffa4">
 </p>
 
-
-
-
 ---
 
 ## Supported lamps / protocols
@@ -134,7 +137,7 @@ fan note below).
 * [Smart Elfin](https://play.google.com/store/apps/details?id=com.warpfuture.wfiot.g) — 🧪 🔗
 * [GMIMA](https://www.jasonghost.com/lampSmartGmima/) (not available on Play Store) — 🧪 📋
 * [SmartHomeLight](https://wosk.top/zd.html) (not available on Play Store) — 🧪 📋
-* [eWeLink](https://play.google.com/store/apps/details?id=com.coolkit) **ONLY BLE ADV devices** such as [VACZON](https://github.com/NicoIIT/ha-ble-adv/issues/201). Will **_NEVER_** work for standard BLE GATT devices (99% of eWeLink devices), so make sure the device is [BLE ADV controlled](https://github.com/NicoIIT/ha-ble-adv/wiki/How-to-know-if-my-Physical-Remote-is-using-BLE-Advertising-to-control-my-device) before asking for help — 🧪 📋
+* [eWeLink](https://play.google.com/store/apps/details?id=com.coolkit) **ONLY BLE ADV devices** such as [VACZON](https://github.com/NicoIIT/ha-ble-adv/issues/201). Will **_NEVER_** work for standard BLE GATT devices (99% of eWeLink devices), so make sure the device is [BLE ADV controlled](https://github.com/NicoIIT/ha-ble-adv/wiki/How-to-know-if-my-Physical-Remote-is-using-BLE-Advertising-to-control-my-Device) before asking for help — 🧪 📋
 * [Hxlight](https://play.google.com/store/apps/details?id=com.dxc.delight) / [LED-Spots](https://play.google.com/store/apps/details?id=com.hmwin.bt.broadcast) (On / Off, Brightness, Color Temperature; the app does not expose Night Mode yet; no support for direct Pairing) — 🧪 📋
 * Other (legacy), apps removed from Play Store: 'FanLamp', 'ControlSwitch', 'Lamp Smart Pro - Soft Lighting / Smart Lighting' — 🧪 (same LampSmart / FanLamp protocols)
 
@@ -153,6 +156,13 @@ Not sure which kind you have? Read the ha-ble-adv wiki page linked in the eWeLin
 ## Getting started
 
 ### Install
+
+<p>
+  <a href="https://github.com/geethut-stack/BLE-ADV-for-Humans/releases/download/0.1.0/app-debug.apk">
+    <img alt="Download APK" src="https://img.shields.io/badge/Download-APK_0.1.0-9A5B00?style=for-the-badge&logo=android&logoColor=white">
+  </a>
+</p>
+
 1. Download the latest APK from the repository's [Releases](../../releases) page (or build it yourself - see [Build from source](#build-from-source)).
 2. Allow "install from unknown sources" for your browser/file manager when Android asks.
 3. Open **BLE ADV for Humans**. Android 8.0+ is required.
@@ -228,8 +238,10 @@ Open an issue - if it uses Bluetooth advertising it may be a variation of a supp
 ## How it works (technical overview)
 
 ```
- [ UI ] -> LampController -> entity logic -> command translators -> brand codec -> advertisement -> Android BLE advertiser -> lamp
-                (ON, level, RGB, timer)   (ble_adv rules)   (generated tables)   (crypto/layout)   (UUID list / service data / manufacturer data)
+
+[ UI ] -> LampController -> entity logic -> command translators -> brand codec -> advertisement -> Android BLE advertiser -> lamp
+(ON, level, RGB, timer)   (ble_adv rules)   (generated tables)   (crypto/layout)   (UUID list / service data / manufacturer data)
+
 ```
 
 1. **No connection:** the app broadcasts BLE *advertisements*; the lamp scans and obeys matching ones.
@@ -283,7 +295,7 @@ git clone <this repository>
 
 Regenerate the protocol data/tests (optional, Python 3.12+):
 
-```bash
+```
 git clone https://github.com/NicoIIT/ha-ble-adv
 pip install pycryptodome
 HA_BLE_ADV=./ha-ble-adv python3 tools/gen_specs.py       # -> app/src/main/resources/codec_specs.txt
@@ -316,19 +328,28 @@ tools/                                    generators (Python)
 ## Limitations & roadmap
 
 **Known limitations**
+
 - Android only; cannot learn from the stock app on the same phone; cannot set the advertisement flags byte; cannot send raw payloads (one Zhi Mei fan remote format).
 - Lamp state is assumed, never read back.
 - Widgets control one lamp (the ★ one).
 - Only LampSmart Pro was tested on real hardware.
 
 **Roadmap**
-- [ ] Fan controls (speed, direction) and fan-only devices such as Dudugu
-- [ ] Light effects / scenes / night mode
-- [ ] Choose the lamp per widget
-- [ ] "Copy debug info" button for easier bug reports
-- [ ] Confirmed-lamp table filled in from community reports
-- [ ] Screenshots, signed release APKs, CI (build + tests on every commit)
-- [ ] Chinese README (`README.zh-CN.md`)
+
+- □  
+Fan controls (speed, direction) and fan-only devices such as Dudugu
+- □  
+Light effects / scenes / night mode
+- □  
+Choose the lamp per widget
+- □  
+"Copy debug info" button for easier bug reports
+- □  
+Confirmed-lamp table filled in from community reports
+- □  
+Screenshots, signed release APKs, CI (build + tests on every commit)
+- □  
+Chinese README (`README.zh-CN.md`)
 
 ---
 
@@ -341,7 +362,8 @@ Other ways to help: translations, screenshots, UI polish, fan/effect support, ha
 
 > ⚠️ **Do not post raw captured packets or lamp IDs publicly.** They let anyone nearby control your lamp.
 
-Contact: [github.com/geethut-stack](https://github.com/geethut-stack) 
+Contact: [github.com/geethut-stack](https://github.com/geethut-stack)
+
 ---
 
 ## Security & privacy
@@ -355,5 +377,6 @@ Contact: [github.com/geethut-stack](https://github.com/geethut-stack)
 ## Credits, license & disclaimer
 
 - **Protocols:** this project is a Kotlin port of the codecs in [**ha-ble-adv**](https://github.com/NicoIIT/ha-ble-adv) by **NicoIIT** (MIT License). Without your work, none of this would exist - thank you.
-- **License:** MIT © 2026 geethut-stack (see [LICENSE](LICENSE)); third-party notices in [THIRD_PARTY_LICENSES.md](THIRD_PARTY_LICENSES.md). AndroidX and Material Components are Apache-2.0.
+- **License:** MIT © 2026 geethut-stack (see LICENSE); third-party notices in THIRD_PARTY_LICENSES.md. AndroidX and Material Components are Apache-2.0.
 - **Disclaimer:** independent project, **not affiliated with** LampSmart, FanLamp, Jingyuan, Zhi Jia, Zhi Guang, Zhi Mei, or any other lamp maker or app developer. Product names are used only to describe compatibility. Provided "as is", without warranty. Reverse engineering was done for interoperability with devices the author owns.
+
