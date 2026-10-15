@@ -340,21 +340,13 @@ tools/                                    generators (Python)
 - Only LampSmart Pro was tested on real hardware.
 
 **Roadmap**
-
-- □  
-Fan controls (speed, direction) and fan-only devices such as Dudugu
-- □  
-Light effects / scenes / night mode
-- □  
-Choose the lamp per widget
-- □  
-"Copy debug info" button for easier bug reports
-- □  
-Confirmed-lamp table filled in from community reports
-- □  
-Screenshots, signed release APKs, CI (build + tests on every commit)
-- □  
-Chinese README (`README.zh-CN.md`)
+- [ ] Fan controls (speed, direction) and fan-only devices such as Dudugu
+- [ ] Light effects / scenes / night mode
+- [ ] Choose the lamp per widget
+- [ ] "Copy debug info" button for easier bug reports
+- [ ] Confirmed-lamp table filled in from community reports
+- [ ] Screenshots, signed release APKs, CI (build + tests on every commit)
+- [ ] Chinese README (`README.zh-CN.md`)
 
 ---
 
