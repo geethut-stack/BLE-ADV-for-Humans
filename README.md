@@ -96,10 +96,7 @@ dim a bedside lamp.
 - 👓 **Large, high-contrast UI** designed to be readable by everyone, including older users.
 - 🔒 **No data collection, no account, no internet permission.**
 
-<p align="center">
-  <img width="290" alt="Lamp list" src="https://github.com/user-attachments/assets/39f52a1b-8896-4c9b-8b36-5623ab7b2075">
-  <img width="290" alt="Controls" src="https://github.com/user-attachments/assets/5792cb06-8c0f-4215-b55c-aed02710a4b5">
-</p>
+
 <p align="center">
   <img width="290" alt="Add a lamp" src="https://github.com/user-attachments/assets/5192e999-d5d8-46c0-aaaa-6e170cca3c09">
   <img width="290" alt="Instructions" src="https://github.com/user-attachments/assets/80b5696d-c6ff-4952-82cd-30ddd1f5f7ed">
