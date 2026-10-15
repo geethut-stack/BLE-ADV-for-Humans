@@ -116,31 +116,36 @@ from the [ha-ble-adv](https://github.com/NicoIIT/ha-ble-adv) list to what this a
 fan note below).
 
 **Legend**
-- ✅ **Tested on a real lamp** (LampSmart Pro, by the author)
-- 🧪 **Protocol verified** byte-for-byte against the reference implementation's test data, but **not yet tried on a real lamp** - please [report](#contributing--reporting-your-lamp)
-- 🔗 can be **paired** as a new remote from this app · 📋 add by **copying a remote** / pasting a packet (no working pairing step)
+
+| Mark | Meaning |
+|---|---|
+| ✅ | **Tested on a real lamp** (LampSmart Pro, by the author) |
+| 🧪 | **Protocol verified** byte-for-byte against the reference implementation's test data, but **not yet tried on a real lamp** — please [report](#contributing--reporting-your-lamp) |
+| 🔗 | Can be **paired** as a new remote from this app |
+| 📋 | Add by **copying a remote** / pasting a packet (no working pairing step) |
 
 **Apps**
 
-* [LampSmart Pro](https://play.google.com/store/apps/details?id=com.jingyuan.lamp) — ✅ 🔗
-* [FanLamp Pro](https://play.google.com/store/apps/details?id=com.jingyuan.fan_lamp) — 🧪 🔗
-* [ApplianceSmart](https://play.google.com/store/apps/details?id=com.jingyuan.smart_home) — 🧪 (same vendor/protocol family per ha-ble-adv; use the LampSmart Pro / FanLamp Pro option)
-* [Vmax smart](https://play.google.com/store/apps/details?id=com.jingyuan.vmax_smart) — 🧪 (same vendor/protocol family per ha-ble-adv; use the LampSmart Pro / FanLamp Pro option)
-* [Zhi Jia](https://play.google.com/store/apps/details?id=com.cxw.cxwblelight) — 🧪 🔗
-* [Zhi Guang](https://play.google.com/store/apps/details?id=com.cxw.zhiguang) (2 different versions: one based on zhimei, one based on zhijia) — 🧪 🔗
-* [Zhi Mei Deng Kong](http://mihuan.iotworkshop.com/zhiguang/) (not available on Play Store) — 🧪 🔗
-* [Mantra Lighting](https://play.google.com/store/apps/details?id=com.newenergy.baolilan) (Models Coin, Groenland. No support for direct Pairing) — 🧪 📋
-* [Smart Light / Argrace Smart](https://apkpure.com/argrace-smart/ai.argrace.oem) (No RGB, only the control by device, not the Master Control, PARTIAL support for some remotes) (not available on Play Store anymore, seems abandoned) — 🧪 🔗
-* [LE Light Pro / 乐智光Pro](https://openapi.lelight.top/dl/cqan) (not available on Play Store) — 🧪 🔗
-* [RuiXin](https://rx-etech.com/rxzn.html) Sanweyter devices (No RGB, no Timer) (not available on Play Store) — 🧪 🔗
-* [RW.LIGHT](https://play.google.com/store/apps/details?id=com.rw.rwblelight) (No control by Group, no support for AURA / IR / FIBER types) — 🧪 🔗
-* [Smart Elfin](https://play.google.com/store/apps/details?id=com.warpfuture.wfiot.g) — 🧪 🔗
-* [GMIMA](https://www.jasonghost.com/lampSmartGmima/) (not available on Play Store) — 🧪 📋
-* [SmartHomeLight](https://wosk.top/zd.html) (not available on Play Store) — 🧪 📋
-* [eWeLink](https://play.google.com/store/apps/details?id=com.coolkit) **ONLY BLE ADV devices** such as [VACZON](https://github.com/NicoIIT/ha-ble-adv/issues/201). Will **_NEVER_** work for standard BLE GATT devices (99% of eWeLink devices), so make sure the device is [BLE ADV controlled](https://github.com/NicoIIT/ha-ble-adv/wiki/How-to-know-if-my-Physical-Remote-is-using-BLE-Advertising-to-control-my-Device) before asking for help — 🧪 📋
-* [Hxlight](https://play.google.com/store/apps/details?id=com.dxc.delight) / [LED-Spots](https://play.google.com/store/apps/details?id=com.hmwin.bt.broadcast) (On / Off, Brightness, Color Temperature; the app does not expose Night Mode yet; no support for direct Pairing) — 🧪 📋
-* Other (legacy), apps removed from Play Store: 'FanLamp', 'ControlSwitch', 'Lamp Smart Pro - Soft Lighting / Smart Lighting' — 🧪 (same LampSmart / FanLamp protocols)
-
+| App | Status | Add by | Notes |
+|---|---|---|---|
+| [LampSmart Pro](https://play.google.com/store/apps/details?id=com.jingyuan.lamp) | ✅ | 🔗 | The reference lamp, tested on real hardware |
+| [FanLamp Pro](https://play.google.com/store/apps/details?id=com.jingyuan.fan_lamp) | 🧪 | 🔗 | Same protocol family as LampSmart Pro |
+| [ApplianceSmart](https://play.google.com/store/apps/details?id=com.jingyuan.smart_home) | 🧪 | 🔗 | Same vendor; use the LampSmart / FanLamp option |
+| [Vmax smart](https://play.google.com/store/apps/details?id=com.jingyuan.vmax_smart) | 🧪 | 🔗 | Same vendor; use the LampSmart / FanLamp option |
+| [Zhi Jia](https://play.google.com/store/apps/details?id=com.cxw.cxwblelight) | 🧪 | 🔗 | |
+| [Zhi Guang](https://play.google.com/store/apps/details?id=com.cxw.zhiguang) | 🧪 | 🔗 | Two versions: one based on Zhimei, one on Zhijia |
+| [Zhi Mei Deng Kong](http://mihuan.iotworkshop.com/zhiguang/) | 🧪 | 🔗 | Not on Play Store |
+| [Mantra Lighting](https://play.google.com/store/apps/details?id=com.newenergy.baolilan) | 🧪 | 📋 | Models Coin, Groenland |
+| [Smart Light / Argrace Smart](https://apkpure.com/argrace-smart/ai.argrace.oem) | 🧪 | 🔗 | No RGB; partial remote support; abandoned |
+| [LE Light Pro / 乐智光Pro](https://openapi.lelight.top/dl/cqan) | 🧪 | 🔗 | Not on Play Store |
+| [RuiXin](https://rx-etech.com/rxzn.html) | 🧪 | 🔗 | Sanweyter devices; no RGB, no timer |
+| [RW.LIGHT](https://play.google.com/store/apps/details?id=com.rw.rwblelight) | 🧪 | 🔗 | No group control; no AURA / IR / FIBER |
+| [Smart Elfin](https://play.google.com/store/apps/details?id=com.warpfuture.wfiot.g) | 🧪 | 🔗 | |
+| [GMIMA](https://www.jasonghost.com/lampSmartGmima/) | 🧪 | 📋 | Not on Play Store |
+| [SmartHomeLight](https://wosk.top/zd.html) | 🧪 | 📋 | Not on Play Store |
+| [eWeLink](https://play.google.com/store/apps/details?id=com.coolkit) | 🧪 | 📋 | **BLE ADV devices only** — will *never* work with standard BLE GATT. [Check first](https://github.com/NicoIIT/ha-ble-adv/wiki/How-to-know-if-my-Physical-Remote-is-using-BLE-Advertising-to-control-my-Device) |
+| [Hxlight](https://play.google.com/store/apps/details?id=com.dxc.delight) / [LED-Spots](https://play.google.com/store/apps/details?id=com.hmwin.bt.broadcast) | 🧪 | 📋 | On/off, brightness, CCT only; no night mode |
+| *Legacy* — 'FanLamp', 'ControlSwitch', 'Lamp Smart Pro - Soft Lighting' | 🧪 | 🔗 | Removed from Play Store; same LampSmart / FanLamp protocols |
 **Filtered out / not usable yet**
 
 * [Dudugu](https://app.dudugu.com/duduguapp/app/) — **fan-only** device with no direct pairing. The protocol is ported and tested, but this app has no fan controls yet, so it cannot be used for now.
