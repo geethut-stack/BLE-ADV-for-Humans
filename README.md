@@ -105,10 +105,12 @@ dim a bedside lamp.
 ## Screenshots
 
 <p align="center">
-  <img width="49%" alt="Weixin Image_20261016033633_175_12" src="https://github.com/user-attachments/assets/64104740-e5ce-4a8c-a96e-f1b54d3b6da4" />
   <img width="49%" alt="Weixin Image_20261016033634_176_12" src="https://github.com/user-attachments/assets/f1e000dc-5845-47c6-b474-ffc7c8bba66f" />
+  <img width="49%" alt="Weixin Image_20261016033633_175_12" src="https://github.com/user-attachments/assets/64104740-e5ce-4a8c-a96e-f1b54d3b6da4" />
 </p>
+
 ---
+
 <p align="center">
   <img width="49%" alt="Sidebar" src="https://github.com/user-attachments/assets/38c08262-d590-486c-8a05-de33baadffa4">
   <img width="49%" alt="Add a lamp" src="https://github.com/user-attachments/assets/6c733319-1ea3-406f-9111-437a0d3f21f4">
