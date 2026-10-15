@@ -96,8 +96,10 @@ dim a bedside lamp.
 - 👓 **Large, high-contrast UI** designed to be readable by everyone, including older users.
 - 🔒 **No data collection, no account, no internet permission.**
 
-<img width="1600" height="2492" alt="Weixin Image_20261016033632_174_12" src="https://github.com/user-attachments/assets/6c733319-1ea3-406f-9111-437a0d3f21f4" /> <img width="1600" height="2494" alt="Weixin Image_20261016033631_173_12" src="https://github.com/user-attachments/assets/38c08262-d590-486c-8a05-de33baadffa4" />
-
+<p align="center">
+  <img width="49%" alt="Add a lamp" src="https://github.com/user-attachments/assets/6c733319-1ea3-406f-9111-437a0d3f21f4">
+  <img width="49%" alt="Sidebar" src="https://github.com/user-attachments/assets/38c08262-d590-486c-8a05-de33baadffa4">
+</p>
 
 
 
