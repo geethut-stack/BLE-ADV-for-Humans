@@ -153,7 +153,7 @@ Not sure which kind you have? Read the ha-ble-adv wiki page linked in the eWeLin
 ## Getting started
 
 ### Install
-1. Download the latest APK from the repository's **Releases** page [Releases](../../releases) (or build it yourself - see [Build from source](#build-from-source)).
+1. Download the latest APK from the repository's [Releases](../../releases) page (or build it yourself - see [Build from source](#build-from-source)).
 2. Allow "install from unknown sources" for your browser/file manager when Android asks.
 3. Open **BLE ADV for Humans**. Android 8.0+ is required.
 
