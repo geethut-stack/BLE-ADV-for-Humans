@@ -63,9 +63,9 @@ Nobody publishes a number, and we do not want to invent one. What we can point t
 
 | Signal | Value (when we checked, Oct 2026) |
 |---|---|
-| Open-source **ha-ble-adv** project (the only serious reverse-engineering work for these lamps) | **263 stars, 33 forks** in ~19 months |
+| Open-source **ha-ble-adv** project (the only serious open-source work for these lamps) | **263 stars, 33 forks** in ~19 months |
 | Issues opened on that project | **152** in total, **~90** of which mention pairing (keyword search, so an upper estimate) |
-| LampSmart Pro App Store rating (Mexico storefront) | **1.9 / 5**, 19 ratings |
+| LampSmart Pro App Store rating (Google Play Store) | **1.9 / 5**, 19 ratings |
 
 If you own one of these lamps, you probably already know the feeling.
 
@@ -96,7 +96,11 @@ dim a bedside lamp.
 - 👓 **Large, high-contrast UI** designed to be readable by everyone, including older users.
 - 🔒 **No data collection, no account, no internet permission.**
 
-<!-- TODO: add screenshots (lamp list, controls, add a lamp, sidebar) -->
+<img width="1080" height="1693" alt="Weixin Image_20261016033635_177_12" src="https://github.com/user-attachments/assets/39f52a1b-8896-4c9b-8b36-5623ab7b2075" /> <img width="1080" height="1689" alt="Weixin Image_20261016033634_176_12" src="https://github.com/user-attachments/assets/5792cb06-8c0f-4215-b55c-aed02710a4b5" /> <img width="1600" height="2492" alt="Weixin Image_20261016033632_174_12" src="https://github.com/user-attachments/assets/5192e999-d5d8-46c0-aaaa-6e170cca3c09" /> <img width="1600" height="2494" alt="Weixin Image_20261016033631_173_12" src="https://github.com/user-attachments/assets/312c5749-5b40-47bd-995f-b6fc93c38cdd" /> <img width="1600" height="2499" alt="Weixin Image_20261016033633_175_12" src="https://github.com/user-attachments/assets/80b5696d-c6ff-4952-82cd-30ddd1f5f7ed" />
+
+
+
+
 
 ---
 
@@ -289,7 +293,7 @@ HA_BLE_ADV=./ha-ble-adv python3 tools/gen_vectors2.py    # -> app/src/test/.../G
 ## Project structure
 
 ```
-app/src/main/java/com/lampremote/
+app/src/main/java/com/BLE ADV for Humans/
   MainActivity / ControlActivity / AddDeviceActivity / InfoActivity / BaseActivity   screens + sidebar
   Ui.kt                         themed UI toolkit (cards, thick sliders, dividers)
   LampController.kt             user actions -> entity logic -> codecs -> advertiser
@@ -335,8 +339,7 @@ Other ways to help: translations, screenshots, UI polish, fan/effect support, ha
 
 > ⚠️ **Do not post raw captured packets or lamp IDs publicly.** They let anyone nearby control your lamp.
 
-Contact: [github.com/geethut-stack](https://github.com/geethut-stack) · 1840861172@qq.com
-
+Contact: [github.com/geethut-stack](https://github.com/geethut-stack) 
 ---
 
 ## Security & privacy
@@ -349,6 +352,6 @@ Contact: [github.com/geethut-stack](https://github.com/geethut-stack) · 1840861
 
 ## Credits, license & disclaimer
 
-- **Protocols:** this project is a Kotlin port of the codecs in [**ha-ble-adv**](https://github.com/NicoIIT/ha-ble-adv) by **NicoIIT** (MIT License). Without that reverse-engineering work, none of this would exist - thank you.
+- **Protocols:** this project is a Kotlin port of the codecs in [**ha-ble-adv**](https://github.com/NicoIIT/ha-ble-adv) by **NicoIIT** (MIT License). Without your work, none of this would exist - thank you.
 - **License:** MIT © 2026 geethut-stack (see [LICENSE](LICENSE)); third-party notices in [THIRD_PARTY_LICENSES.md](THIRD_PARTY_LICENSES.md). AndroidX and Material Components are Apache-2.0.
 - **Disclaimer:** independent project, **not affiliated with** LampSmart, FanLamp, Jingyuan, Zhi Jia, Zhi Guang, Zhi Mei, or any other lamp maker or app developer. Product names are used only to describe compatibility. Provided "as is", without warranty. Reverse engineering was done for interoperability with devices the author owns.
