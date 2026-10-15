@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" formatted="false">BLE ADV 人话版</string>
+    <string name="app_tagline" formatted="false">LampSmart Pro 等灯具的简单遥控器</string>
+    <string name="menu_language" formatted="false">Language / 语言</string>
+    <string name="menu_instructions" formatted="false">使用说明</string>
+    <string name="menu_compat" formatted="false">兼容的灯具</string>
+    <string name="menu_pairing" formatted="false">配对原理</string>
+    <string name="menu_about" formatted="false">关于</string>
+    <string name="menu_license" formatted="false">许可证</string>
+    <string name="lang_title" formatted="false">Language / 语言</string>
+    <string name="lang_en" formatted="false">English</string>
+    <string name="lang_zh" formatted="false">中文（简体）</string>
+    <string name="ok" formatted="false">确定</string>
+    <string name="cancel" formatted="false">取消</string>
+    <string name="save" formatted="false">保存</string>
+    <string name="delete" formatted="false">删除</string>
+    <string name="perm_denied" formatted="false">需要蓝牙权限才能发送指令</string>
+    <string name="version_fmt" formatted="true">版本 %1$s</string>
+    <string name="my_lamps" formatted="false">我的灯</string>
+    <string name="lamps_hint" formatted="false">点击灯即可控制。</string>
+    <string name="no_lamps_title" formatted="false">还没有添加灯</string>
+    <string name="no_lamps_body" formatted="false">添加一盏灯大约只需一分钟。你可以配对为新遥控器，或复制现有遥控器。</string>
+    <string name="add_lamp" formatted="false">添加灯</string>
+    <string name="badge_widgets" formatted="false">小组件</string>
+    <string name="lamp_default_name" formatted="false">我的灯</string>
+    <string name="btn_on" formatted="false">开</string>
+    <string name="btn_off" formatted="false">关</string>
+    <string name="ready" formatted="false">就绪</string>
+    <string name="sec_light" formatted="false">灯光</string>
+    <string name="brightness_fmt" formatted="true">亮度  %1$d%%</string>
+    <string name="ct_fmt" formatted="true">色温  %1$d K</string>
+    <string name="warm" formatted="false">暖光</string>
+    <string name="cool" formatted="false">冷光</string>
+    <string name="sec_light2" formatted="false">第二个灯</string>
+    <string name="light2_on" formatted="false">灯 2 开</string>
+    <string name="light2_off" formatted="false">灯 2 关</string>
+    <string name="sec_timer" formatted="false">定时关灯</string>
+    <string name="timer_desc" formatted="false">灯会在你选择的时间后自动关闭。</string>
+    <string name="timer_fmt" formatted="true">%1$d 分钟</string>
+    <string name="timer_start" formatted="false">开始定时</string>
+    <string name="sec_shortcuts" formatted="false">桌面快捷方式</string>
+    <string name="pin_toggle" formatted="false">添加 开/关 快捷方式</string>
+    <string name="pin_timer_hint" formatted="false">定时快捷方式（分钟）</string>
+    <string name="sec_settings" formatted="false">灯设置</string>
+    <string name="edit_links" formatted="false">编辑与测试</string>
+    <string name="use_widgets" formatted="false">用于小组件</string>
+    <string name="used_widgets" formatted="false">★ 小组件使用中</string>
+    <string name="widgets_assigned" formatted="true">小组件现在控制「%1$s」</string>
+    <string name="pin_confirm" formatted="false">请在弹出的对话框中确认</string>
+    <string name="pin_unsupported" formatted="false">你的桌面不支持固定快捷方式，请改为长按应用图标。</string>
+    <string name="kind_cct" formatted="false">亮度 + 色温</string>
+    <string name="kind_onoff" formatted="false">开 / 关</string>
+    <string name="no_link" formatted="false">无连接</string>
+    <string name="edit_title" formatted="false">编辑灯</string>
+    <string name="name_hint" formatted="false">名称</string>
+    <string name="has_second" formatted="false">有第二个灯</string>
+    <string name="reverse_cw" formatted="false">反转冷 / 暖光</string>
+    <string name="links_title" formatted="false">连接方式 —— 点击「闪烁」，灯应会闪动</string>
+    <string name="blink" formatted="false">闪烁</string>
+    <string name="delete_q" formatted="true">删除「%1$s」？</string>
+    <string name="listen_only" formatted="false">仅可接收</string>
+    <string name="add_title" formatted="false">添加灯</string>
+    <string name="add_intro" formatted="false">灯只会听从与它配对过的身份。请在下面选择一种方式获取。如果找到多个连接（例如 V1 和 V2），请保留能让灯闪烁的。</string>
+    <string name="or_label" formatted="false">或</string>
+    <string name="m1_title" formatted="false">从遥控器复制</string>
+    <string name="m1_desc" formatted="false">监听时，请按一下灯自带遥控器上的按钮，或用另一部手机上的灯具 App 发送指令。Android 无法接收自己手机发出的信号，所以无法复制本机上的 App。</string>
+    <string name="start_listening" formatted="false">开始监听</string>
+    <string name="stop_listening" formatted="false">停止监听</string>
+    <string name="listening" formatted="false">正在监听……请按一下遥控器上的按钮。</string>
+    <string name="m2_title" formatted="false">粘贴抓取的数据包</string>
+    <string name="m2_desc" formatted="false">粘贴一条广播的十六进制数据，例如来自 nRF Connect 或蓝牙抓包。</string>
+    <string name="hex_hint" formatted="false">02 01 02 1b 03 77 f8 …</string>
+    <string name="decode" formatted="false">解析</string>
+    <string name="m3_title" formatted="false">配对为新遥控器</string>
+    <string name="m3_desc" formatted="false">拔掉灯的电源（或关闭墙壁开关），等待 5 秒后重新通电，然后立即在灯旁点击「配对」。</string>
+    <string name="pair" formatted="false">配对</string>
+    <string name="pair_app_lampsmart" formatted="false">LampSmart Pro</string>
+    <string name="pair_app_fanlamp" formatted="false">FanLamp Pro</string>
+    <string name="found" formatted="false">已找到</string>
+    <string name="save_title" formatted="false">保存</string>
+    <string name="default_name" formatted="false">新灯</string>
+    <string name="save_lamp" formatted="false">保存灯</string>
+    <string name="bt_turn_on" formatted="false">请先打开蓝牙</string>
+    <string name="scan_failed_fmt" formatted="true">扫描失败（代码 %1$d）</string>
+    <string name="bad_hex" formatted="false">这看起来不是十六进制数据。</string>
+    <string name="none_recognised" formatted="false">这些数据中没有识别到受支持的协议。</string>
+    <string name="recognised_fmt" formatted="true">识别到 %1$d 种协议。</string>
+    <string name="pairing_sending" formatted="false">正在配对……请让手机靠近灯。</string>
+    <string name="pairing_sent" formatted="false">配对信号已发送。请逐个点击下方的「闪烁」：保留能让灯闪动的连接，然后保存。</string>
+    <string name="select_one" formatted="false">请至少选择一个可发送的连接（仅可接收的遥控器无法发送）。</string>
+    <string name="note_fmt" formatted="true">%1$s：%2$s</string>
+    <string name="how_heard" formatted="false">收到</string>
+    <string name="how_pasted" formatted="false">粘贴</string>
+    <string name="how_pairing" formatted="false">新配对</string>
+    <string name="cmd_on" formatted="false">开灯</string>
+    <string name="cmd_off" formatted="false">关灯</string>
+    <string name="cmd_on2" formatted="false">灯 2 开</string>
+    <string name="cmd_off2" formatted="false">灯 2 关</string>
+    <string name="cmd_color" formatted="false">颜色 / 亮度</string>
+    <string name="cmd_pair" formatted="false">配对</string>
+    <string name="cmd_unpair" formatted="false">取消配对</string>
+    <string name="cmd_timer" formatted="false">定时</string>
+    <string name="cmd_other_fmt" formatted="true">指令 0x%1$02X</string>
+    <string name="st_on_fmt" formatted="true">%1$s：开灯…</string>
+    <string name="st_off_fmt" formatted="true">%1$s：关灯…</string>
+    <string name="st_l2_on_fmt" formatted="true">%1$s：灯 2 开…</string>
+    <string name="st_l2_off_fmt" formatted="true">%1$s：灯 2 关…</string>
+    <string name="st_level_fmt" formatted="true">%1$s：%2$d%% · %3$d K…</string>
+    <string name="st_timer_fmt" formatted="true">%1$s：%2$d 分钟后关灯…</string>
+    <string name="st_blink_fmt" formatted="true">正在通过 %1$s 闪烁…</string>
+    <string name="st_bright_fmt" formatted="true">%1$s：%2$d%%…</string>
+    <string name="st_color_fmt" formatted="true">%1$s：颜色…</string>
+    <string name="err_unsupported_action" formatted="false">此灯不支持该操作</string>
+    <string name="android_no" formatted="false">无法从 Android 发送</string>
+    <string name="kind_rgb" formatted="false">RGB 彩色</string>
+    <string name="sec_color" formatted="false">颜色</string>
+    <string name="variant_fmt" formatted="true">型号变体：%1$s</string>
+    <string name="variant_title" formatted="false">选择型号变体</string>
+    <string name="variant_default" formatted="false">默认</string>
+    <string name="pair_app_label" formatted="true">灯具 App：%1$s</string>
+    <string name="pair_app_title" formatted="false">你的灯使用哪个 App？</string>
+    <string name="st_pairing" formatted="false">正在配对…</string>
+    <string name="st_done" formatted="false">完成</string>
+    <string name="toast_on_fmt" formatted="true">%1$s：已开</string>
+    <string name="toast_off_fmt" formatted="true">%1$s：已关</string>
+    <string name="toast_timer_fmt" formatted="true">%1$s：%2$d 分钟后关灯</string>
+    <string name="err_no_bt" formatted="false">此设备没有蓝牙</string>
+    <string name="err_bt_off" formatted="false">蓝牙已关闭，请先打开</string>
+    <string name="err_no_adv" formatted="false">此手机不支持蓝牙 LE 广播</string>
+    <string name="err_nothing" formatted="false">无法发送：没有可用的发送连接</string>
+    <string name="err_unsupported_fmt" formatted="true">暂不支持广播类型 0x%1$02X</string>
+    <string name="err_adv_failed_fmt" formatted="true">广播失败（代码 %1$d）</string>
+    <string name="err_generic_fmt" formatted="true">错误：%1$s</string>
+    <string name="err_adv_unavailable" formatted="false">蓝牙广播不可用</string>
+    <string name="err_open_app" formatted="false">请先打开一次应用以授予蓝牙权限</string>
+    <string name="err_no_lamp" formatted="false">尚未设置灯，请先打开应用</string>
+    <string name="sc_toggle_long" formatted="true">%1$s 开 / 关</string>
+    <string name="sc_timer_short" formatted="true">%1$d 分钟后关</string>
+    <string name="sc_timer_long" formatted="true">%1$s %2$d 分钟后关灯</string>
+    <string name="timer_start_short" formatted="false">定时</string>
+    <string name="widget_lamp_label" formatted="false">灯 开 / 关</string>
+    <string name="widget_lamp_desc" formatted="false">为默认灯提供一键开/关</string>
+    <string name="widget_timer_label" formatted="false">灯定时关闭</string>
+    <string name="widget_timer_desc" formatted="false">选择 1–10 分钟，默认灯将自动关闭</string>
+    <string name="lamp_on" formatted="false">开灯</string>
+    <string name="lamp_off" formatted="false">关灯</string>
+    <string name="page_instructions_title" formatted="false">使用说明</string>
+    <string name="page_instructions" formatted="false"># 快速开始\n- 1. 点击「添加灯」。\n- 2. 选择连接方式（见下文）。\n- 3. 点击「闪烁」测试。保留能让灯闪动的连接，然后保存。\n- 4. 点击你的灯即可控制。\n\n# 三种添加方式\n- 从遥控器复制：在 App 监听时，按一下灯自带遥控器的按钮。也可使用另一部手机上的灯具 App。不会改动灯本身。\n- 粘贴抓取的数据包：适合抓取过灯信号的进阶用户。\n- 配对为新遥控器：给灯断电重启后点击「配对」。如果你只有手机，这是最佳选择。\n\n# 控制灯\n- 「开 / 关」控制灯光。\n- 松开滑块后才会发送亮度和色温。\n- 定时关灯：灯会在 1–10 分钟后自动关闭。\n- 灯不会反馈状态，所以 App 会记住上一次发送的指令。\n\n# 小组件与快捷方式\n- 长按桌面，选择「小组件」，找到本应用。带 ★ 的灯就是小组件控制的灯。\n- 在灯的页面里可以把「开 / 关」或定时快捷方式添加到桌面。\n\n# 灯没有反应怎么办\n- 靠近灯。\n- 打开该灯，点击「编辑与测试」，逐个点击「闪烁」。\n- 关闭灯原来的 App，它可能产生干扰。\n- 给灯断电重启后重新配对。\n- 保持蓝牙开启。</string>
+    <string name="page_pairing_title" formatted="false">配对原理</string>
+    <string name="page_pairing" formatted="false"># 这些灯如何工作\n- 这些灯没有 Wi-Fi，也没有普通的蓝牙连接。\n- 遥控器（或 App）会发出简短的蓝牙广播，灯只听从带有它已记住 ID 的广播。\n- 因此新遥控器在配对前，灯不会理会它。\n\n# 配对\n- 配对就是让灯记住一个新的 ID。\n- 大多数灯在通电后的几秒内会接受新 ID，此时遥控器会发送包含其 ID 的「配对」消息。\n- 大多数灯能记住多个遥控器，所以配对本应用通常不会让旧遥控器失效；少数灯会忘记最早的一个。\n- 灯不会给出反馈，所以本应用提供了「闪烁」测试。\n\n# 复制，而不是配对\n- 如果应用能收到你现有遥控器的信号，就会复制它的 ID。两者都能继续使用，无需配对。\n\n# 为什么有多个连接？\n- 许多灯具 App 会同时广播两个协议版本（例如 V1 和 V2），应用会保留所有有效的版本。\n\n# 重置灯\n- 断电并配对新遥控器就是重新分配灯的方式。部分实体遥控器也有配对 / 取消配对按钮。</string>
+    <string name="page_about_title" formatted="false">关于</string>
+    <string name="page_about" formatted="false"># BLE ADV 人话版\n- 一款适用于 LampSmart Pro 等蓝牙广播灯具的简单遥控器。\n- 它基于开源项目 ha-ble-adv 的协议成果，并让每个人都能轻松使用。\n\n# 作者\n- GitHub：https://github.com/geethut-stack\n- 邮箱：1840861172@qq.com\n\n# 致谢\n- 协议：NicoIIT 的 ha-ble-adv（MIT 许可证）— https://github.com/NicoIIT/ha-ble-adv\n\n# 声明\n- 本应用为独立作品，与 LampSmart、FanLamp 或任何灯具厂商无关。产品名称仅用于说明哪些灯可用。</string>
+    <string name="open_github" formatted="false">打开 GitHub</string>
+    <string name="send_email" formatted="false">发送邮件</string>
+    <string name="page_license_title" formatted="false">许可证</string>
+    <string name="page_license" formatted="false"># 本应用\n- 本应用以 MIT 许可证发布（以下为英文原文）。\nMIT License\n\nCopyright (c) 2026 geethut-stack\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n\n# ha-ble-adv\n- 本应用中的灯具协议移植自 https://github.com/NicoIIT/ha-ble-adv（MIT 许可证，以下为英文原文）\nMIT License\n\nCopyright (c) 2019 - 2025  @NicoIIT\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n\n# Android 组件库\n- AndroidX 与 Material Components for Android 采用 Apache License 2.0 许可证。</string>
+    <string name="page_compat_title" formatted="false">兼容的灯具</string>
+    <string name="page_compat" formatted="false"># 可靠程度如何？\n- 已在真实灯具上测试：LampSmart Pro（作者的灯）。\n- 下面其他品牌均已用开源项目 ha-ble-adv 的测试数据验证（数百个数据包逐字节一致），但作者没有在真实灯具上试过。如果你有这些灯，欢迎反馈使用情况（见「关于」）。\n\n# 可配对的品牌\n- LampSmart Pro 和 FanLamp Pro（在 ApplianceSmart、Vmax smart 等 App 中也见过）\n- Zhi Jia（智家）、Zhi Guang（智光）、Zhi Guang 2\n- Zhi Mei Deng Kong（智美灯控，灯 / 风扇版）\n- Smart Light（Agarce）\n- LE Light\n- RuiXin（锐芯）\n- RW.LIGHT\n- Smart Elfin\n\n# 需通过复制遥控器添加的品牌\n- Mantra、Dudugu、HxLight / LED-Spots 和 eWeLink（仅限使用蓝牙广播的设备）在参考项目中没有可用的配对步骤。请复制它们遥控器的信号，或粘贴抓取的数据包。\n\n# 应用可以控制什么\n- 灯：开 / 关、亮度与色温、RGB 颜色（协议支持时）、第二个灯、定时关灯（灯支持时）。\n- 风扇：协议已包含并已验证，但应用界面中暂时还没有风扇控制。\n\n# 限制\n- 两种 FanLamp 遥控器类型（r0、r1）只能监听，无法控制。\n- 一种智美风扇遥控器格式使用原始射频字节，Android 无法广播。\n- 使用射频（433 MHz）或红外遥控，或使用普通蓝牙连接（GATT）的灯不受支持。\n- Android 会自行控制广播中的「标志」字节。参考解码器会忽略它，已测试的灯在没有它时也能正常工作。</string>
+</resources>

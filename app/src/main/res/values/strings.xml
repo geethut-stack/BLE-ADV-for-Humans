@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" formatted="false">BLE ADV for Humans</string>
+    <string name="app_tagline" formatted="false">The easy remote for LampSmart Pro &amp; friends</string>
+    <string name="menu_language" formatted="false">Language / 语言</string>
+    <string name="menu_instructions" formatted="false">How to use</string>
+    <string name="menu_compat" formatted="false">Compatible lamps</string>
+    <string name="menu_pairing" formatted="false">How pairing works</string>
+    <string name="menu_about" formatted="false">About</string>
+    <string name="menu_license" formatted="false">Licenses</string>
+    <string name="lang_title" formatted="false">Language / 语言</string>
+    <string name="lang_en" formatted="false">English</string>
+    <string name="lang_zh" formatted="false">中文（简体）</string>
+    <string name="ok" formatted="false">OK</string>
+    <string name="cancel" formatted="false">Cancel</string>
+    <string name="save" formatted="false">Save</string>
+    <string name="delete" formatted="false">Delete</string>
+    <string name="perm_denied" formatted="false">Bluetooth permission is needed to send commands</string>
+    <string name="version_fmt" formatted="true">Version %1$s</string>
+    <string name="my_lamps" formatted="false">My lamps</string>
+    <string name="lamps_hint" formatted="false">Tap a lamp to control it.</string>
+    <string name="no_lamps_title" formatted="false">No lamps yet</string>
+    <string name="no_lamps_body" formatted="false">Adding a lamp takes about a minute. You can pair a new remote, or copy the one you already use.</string>
+    <string name="add_lamp" formatted="false">Add a lamp</string>
+    <string name="badge_widgets" formatted="false">Widgets</string>
+    <string name="lamp_default_name" formatted="false">My lamp</string>
+    <string name="btn_on" formatted="false">ON</string>
+    <string name="btn_off" formatted="false">OFF</string>
+    <string name="ready" formatted="false">Ready</string>
+    <string name="sec_light" formatted="false">Light</string>
+    <string name="brightness_fmt" formatted="true">Brightness  %1$d%%</string>
+    <string name="ct_fmt" formatted="true">Color temperature  %1$d K</string>
+    <string name="warm" formatted="false">Warm</string>
+    <string name="cool" formatted="false">Cool</string>
+    <string name="sec_light2" formatted="false">Second light</string>
+    <string name="light2_on" formatted="false">Light 2 ON</string>
+    <string name="light2_off" formatted="false">Light 2 OFF</string>
+    <string name="sec_timer" formatted="false">Auto-off timer</string>
+    <string name="timer_desc" formatted="false">The lamp switches itself off after the time you choose.</string>
+    <string name="timer_fmt" formatted="true">%1$d min</string>
+    <string name="timer_start" formatted="false">Start timer</string>
+    <string name="sec_shortcuts" formatted="false">Home screen shortcuts</string>
+    <string name="pin_toggle" formatted="false">Add ON / OFF shortcut</string>
+    <string name="pin_timer_hint" formatted="false">Timer shortcut (minutes)</string>
+    <string name="sec_settings" formatted="false">Lamp settings</string>
+    <string name="edit_links" formatted="false">Edit &amp; test</string>
+    <string name="use_widgets" formatted="false">Use for widgets</string>
+    <string name="used_widgets" formatted="false">★ Used by widgets</string>
+    <string name="widgets_assigned" formatted="true">%1$s is now controlled by the widgets</string>
+    <string name="pin_confirm" formatted="false">Confirm the shortcut in the dialog</string>
+    <string name="pin_unsupported" formatted="false">Your launcher can\'t pin shortcuts. Long-press the app icon instead.</string>
+    <string name="kind_cct" formatted="false">Brightness + color temperature</string>
+    <string name="kind_onoff" formatted="false">On / off</string>
+    <string name="no_link" formatted="false">no connection</string>
+    <string name="edit_title" formatted="false">Edit lamp</string>
+    <string name="name_hint" formatted="false">Name</string>
+    <string name="has_second" formatted="false">Has a second light</string>
+    <string name="reverse_cw" formatted="false">Reverse cold / warm</string>
+    <string name="links_title" formatted="false">Connections — tap Blink, the lamp should flash</string>
+    <string name="blink" formatted="false">Blink</string>
+    <string name="delete_q" formatted="true">Delete %1$s?</string>
+    <string name="listen_only" formatted="false">listen only</string>
+    <string name="add_title" formatted="false">Add a lamp</string>
+    <string name="add_intro" formatted="false">A lamp only obeys the identity it was paired with. Choose ONE way below to get it. If several connections are found (for example V1 and V2), keep the ones that make the lamp blink.</string>
+    <string name="or_label" formatted="false">OR</string>
+    <string name="m1_title" formatted="false">Copy from a remote</string>
+    <string name="m1_desc" formatted="false">Press a button on the lamp\'s own remote — or in its app on a different phone — while listening. Android can\'t hear its own phone, so this can\'t copy the app running on this same phone.</string>
+    <string name="start_listening" formatted="false">Start listening</string>
+    <string name="stop_listening" formatted="false">Stop listening</string>
+    <string name="listening" formatted="false">Listening… press a button on the remote.</string>
+    <string name="m2_title" formatted="false">Paste a captured packet</string>
+    <string name="m2_desc" formatted="false">Paste the hex bytes of one advertisement, for example from nRF Connect or a Bluetooth capture.</string>
+    <string name="hex_hint" formatted="false">02 01 02 1b 03 77 f8 …</string>
+    <string name="decode" formatted="false">Decode</string>
+    <string name="m3_title" formatted="false">Pair as a new remote</string>
+    <string name="m3_desc" formatted="false">Unplug the lamp (or switch it off at the wall), wait 5 seconds, plug it back in, then press Pair right away with the phone next to the lamp.</string>
+    <string name="pair" formatted="false">Pair</string>
+    <string name="pair_app_lampsmart" formatted="false">LampSmart Pro</string>
+    <string name="pair_app_fanlamp" formatted="false">FanLamp Pro</string>
+    <string name="found" formatted="false">Found</string>
+    <string name="save_title" formatted="false">Save</string>
+    <string name="default_name" formatted="false">New lamp</string>
+    <string name="save_lamp" formatted="false">Save lamp</string>
+    <string name="bt_turn_on" formatted="false">Turn Bluetooth on first</string>
+    <string name="scan_failed_fmt" formatted="true">Scan failed (code %1$d)</string>
+    <string name="bad_hex" formatted="false">That doesn\'t look like hex bytes.</string>
+    <string name="none_recognised" formatted="false">No supported protocol recognised in these bytes.</string>
+    <string name="recognised_fmt" formatted="true">Recognised %1$d protocol(s).</string>
+    <string name="pairing_sending" formatted="false">Pairing… keep the phone next to the lamp.</string>
+    <string name="pairing_sent" formatted="false">Pairing sent. Tap Blink on each connection below: keep the ones that make the lamp flash, then Save.</string>
+    <string name="select_one" formatted="false">Select at least one connection that can transmit (listen-only remotes can\'t).</string>
+    <string name="note_fmt" formatted="true">%1$s: %2$s</string>
+    <string name="how_heard" formatted="false">heard</string>
+    <string name="how_pasted" formatted="false">pasted</string>
+    <string name="how_pairing" formatted="false">new pairing</string>
+    <string name="cmd_on" formatted="false">light ON</string>
+    <string name="cmd_off" formatted="false">light OFF</string>
+    <string name="cmd_on2" formatted="false">light 2 ON</string>
+    <string name="cmd_off2" formatted="false">light 2 OFF</string>
+    <string name="cmd_color" formatted="false">color / brightness</string>
+    <string name="cmd_pair" formatted="false">pair</string>
+    <string name="cmd_unpair" formatted="false">unpair</string>
+    <string name="cmd_timer" formatted="false">timer</string>
+    <string name="cmd_other_fmt" formatted="true">command 0x%1$02X</string>
+    <string name="st_on_fmt" formatted="true">%1$s: ON…</string>
+    <string name="st_off_fmt" formatted="true">%1$s: OFF…</string>
+    <string name="st_l2_on_fmt" formatted="true">%1$s: light 2 ON…</string>
+    <string name="st_l2_off_fmt" formatted="true">%1$s: light 2 OFF…</string>
+    <string name="st_level_fmt" formatted="true">%1$s: %2$d%% · %3$d K…</string>
+    <string name="st_timer_fmt" formatted="true">%1$s: off in %2$d min…</string>
+    <string name="st_blink_fmt" formatted="true">Blinking via %1$s…</string>
+    <string name="st_bright_fmt" formatted="true">%1$s: %2$d%%…</string>
+    <string name="st_color_fmt" formatted="true">%1$s: color…</string>
+    <string name="err_unsupported_action" formatted="false">This lamp doesn\'t support that action</string>
+    <string name="android_no" formatted="false">can\'t be sent from Android</string>
+    <string name="kind_rgb" formatted="false">RGB color</string>
+    <string name="sec_color" formatted="false">Color</string>
+    <string name="variant_fmt" formatted="true">Variant: %1$s</string>
+    <string name="variant_title" formatted="false">Choose a variant</string>
+    <string name="variant_default" formatted="false">default</string>
+    <string name="pair_app_label" formatted="true">Lamp app: %1$s</string>
+    <string name="pair_app_title" formatted="false">Which app does your lamp use?</string>
+    <string name="st_pairing" formatted="false">Pairing…</string>
+    <string name="st_done" formatted="false">Done</string>
+    <string name="toast_on_fmt" formatted="true">%1$s: ON</string>
+    <string name="toast_off_fmt" formatted="true">%1$s: OFF</string>
+    <string name="toast_timer_fmt" formatted="true">%1$s: off in %2$d min</string>
+    <string name="err_no_bt" formatted="false">This device has no Bluetooth</string>
+    <string name="err_bt_off" formatted="false">Bluetooth is off — turn it on first</string>
+    <string name="err_no_adv" formatted="false">BLE advertising is not supported on this phone</string>
+    <string name="err_nothing" formatted="false">Nothing to send: no enabled connection can transmit</string>
+    <string name="err_unsupported_fmt" formatted="true">Advertisement type 0x%1$02X is not supported yet</string>
+    <string name="err_adv_failed_fmt" formatted="true">Advertise failed (code %1$d)</string>
+    <string name="err_generic_fmt" formatted="true">Error: %1$s</string>
+    <string name="err_adv_unavailable" formatted="false">Bluetooth advertiser unavailable</string>
+    <string name="err_open_app" formatted="false">Open the app once to allow the Bluetooth permission</string>
+    <string name="err_no_lamp" formatted="false">No lamp set up — open the app first</string>
+    <string name="sc_toggle_long" formatted="true">%1$s ON / OFF</string>
+    <string name="sc_timer_short" formatted="true">Off in %1$d min</string>
+    <string name="sc_timer_long" formatted="true">%1$s off in %2$d min</string>
+    <string name="timer_start_short" formatted="false">Timer</string>
+    <string name="widget_lamp_label" formatted="false">Lamp ON / OFF</string>
+    <string name="widget_lamp_desc" formatted="false">One-tap ON and OFF buttons for your default lamp</string>
+    <string name="widget_timer_label" formatted="false">Lamp off timer</string>
+    <string name="widget_timer_desc" formatted="false">Pick 1–10 minutes, then the default lamp switches itself off</string>
+    <string name="lamp_on" formatted="false">Lamp ON</string>
+    <string name="lamp_off" formatted="false">Lamp OFF</string>
+    <string name="page_instructions_title" formatted="false">How to use</string>
+    <string name="page_instructions" formatted="false"># Quick start\n- 1. Tap “Add a lamp”.\n- 2. Pick how to connect (see below).\n- 3. Tap Blink to test. Keep the connections that make the lamp flash, then Save.\n- 4. Tap your lamp to control it.\n\n# Three ways to add a lamp\n- Copy from a remote: press a button on the lamp\'s own remote while the app listens. Also works with the lamp\'s app on another phone. Nothing is changed on the lamp.\n- Paste a captured packet: for advanced users who captured the lamp\'s signal.\n- Pair as a new remote: power-cycle the lamp, then press Pair. Best choice if you only have your phone.\n\n# Controlling a lamp\n- ON / OFF switch the light.\n- Brightness and color temperature are sent when you let go of the slider.\n- Auto-off timer: the lamp turns itself off after 1–10 minutes.\n- The lamp never reports its state, so the app remembers the last command it sent.\n\n# Widgets and shortcuts\n- Long-press your home screen, choose Widgets, then find this app. The ★ lamp is the one the widgets control.\n- Inside a lamp you can add an ON / OFF shortcut or timer shortcuts to your home screen.\n\n# If the lamp does not react\n- Stand close to the lamp.\n- Open the lamp, tap Edit &amp; test, then Blink on each connection.\n- Close the lamp\'s original app: it can interfere.\n- Power-cycle the lamp and pair again.\n- Keep Bluetooth switched on.</string>
+    <string name="page_pairing_title" formatted="false">How pairing works</string>
+    <string name="page_pairing" formatted="false"># How these lamps work\n- These lamps have no Wi-Fi and no normal Bluetooth connection.\n- A remote (or app) shouts short Bluetooth broadcasts. The lamp obeys only the broadcasts that carry an ID it has memorised.\n- That is why a lamp ignores a new remote until it has been paired.\n\n# Pairing\n- Pairing simply teaches the lamp a new ID.\n- For a few seconds after power-up, most lamps accept a new ID. The remote then sends a “pair” message that contains its ID.\n- Most lamps remember several remotes, so pairing this app normally keeps your old remote working. A few lamps forget the oldest one.\n- The lamp gives no feedback. That is why this app has the Blink test.\n\n# Copying instead of pairing\n- If the app can hear your existing remote, it copies that remote\'s ID. Both keep working and you never have to pair.\n\n# Why several connections?\n- Many lamp apps broadcast two protocol versions at once (for example V1 and V2). The app keeps every version that works.\n\n# Resetting a lamp\n- Cutting the power and pairing a new remote is how lamps are re-assigned. Some physical remotes also have a pair / unpair button.</string>
+    <string name="page_about_title" formatted="false">About</string>
+    <string name="page_about" formatted="false"># BLE ADV for Humans\n- A simple remote for Bluetooth-broadcast lamps such as LampSmart Pro.\n- It builds on the open source protocol work of the ha-ble-adv project and makes it friendly for everyone.\n\n# Made by\n- GitHub: https://github.com/geethut-stack\n- Email: 1840861172@qq.com\n\n# Credits\n- Protocols: ha-ble-adv by NicoIIT (MIT License) — https://github.com/NicoIIT/ha-ble-adv\n\n# Not affiliated\n- This app is independent. It is not affiliated with LampSmart, FanLamp or any lamp maker. Product names are used only to say which lamps work.</string>
+    <string name="open_github" formatted="false">Open GitHub</string>
+    <string name="send_email" formatted="false">Send email</string>
+    <string name="page_license_title" formatted="false">Licenses</string>
+    <string name="page_license" formatted="false"># This app\nMIT License\n\nCopyright (c) 2026 geethut-stack\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n\n# ha-ble-adv\n- The lamp protocols in this app are a Kotlin port of https://github.com/NicoIIT/ha-ble-adv\nMIT License\n\nCopyright (c) 2019 - 2025  @NicoIIT\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n\n# Android libraries\n- AndroidX and Material Components for Android are licensed under the Apache License 2.0.</string>
+    <string name="page_compat_title" formatted="false">Compatible lamps</string>
+    <string name="page_compat" formatted="false"># How sure are we?\n- Tested on a real lamp: LampSmart Pro (the author\'s lamp).\n- Every other brand below is verified against the test data of the open source ha-ble-adv project (hundreds of packets match byte for byte), but has NOT been tried on real lamps by the author. If you have one, please tell us how it went (see About).\n\n# Brands you can pair with this app\n- LampSmart Pro and FanLamp Pro (also seen in apps such as ApplianceSmart and Vmax smart)\n- Zhi Jia, Zhi Guang, Zhi Guang 2\n- Zhi Mei Deng Kong (light and fan versions)\n- Smart Light (Agarce)\n- LE Light\n- RuiXin\n- RW.LIGHT\n- Smart Elfin\n\n# Brands you can add by copying a remote\n- Mantra, Dudugu, HxLight / LED-Spots and eWeLink (only the devices that use Bluetooth advertising) have no working pairing step in the reference project. Copy the signal of their remote, or paste a captured packet.\n\n# What the app can control\n- Lights: on / off, brightness and color temperature, RGB colors (where the protocol has them), a second light, auto-off timer (where the lamp supports it).\n- Fans: the protocols are included and verified, but fan controls are not in the app screens yet.\n\n# Limits\n- Two FanLamp remote types (r0, r1) can only be listened to, not controlled.\n- One Zhi Mei fan remote format uses raw radio bytes that Android cannot broadcast.\n- Lamps that use RF (433 MHz) or infrared remotes, or a normal Bluetooth connection (GATT), are not supported.\n- Android controls the small “flags” byte of the broadcast. The reference decoder ignores it, and the tested lamp works without it.</string>
+</resources>
