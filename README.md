@@ -5,11 +5,11 @@
 **A friendly Android remote for Bluetooth-broadcast lamps and ceiling-fan lights**
 LampSmart Pro · FanLamp Pro · Zhi Jia · Zhi Guang · Zhi Mei · and more
 
-No account · No internet · No server · English + 简体中文
+No account · No internet · No server · English + [简体中文](README.zh-CN.md)
 
 ![License](https://img.shields.io/badge/license-MIT-blue)
 ![Android](https://img.shields.io/badge/Android-8.0%2B-green)
-![Languages](https://img.shields.io/badge/UI-English%20%7C%20%E4%B8%AD%E6%96%87-orange)
+[![Languages](https://img.shields.io/badge/UI-English%20%7C%20%E4%B8%AD%E6%96%87-orange)](README.zh-CN.md)
 ![Status](https://img.shields.io/badge/status-early%20release-yellow)
 
 <p align="center">
@@ -19,6 +19,9 @@ No account · No internet · No server · English + 简体中文
 </p>
 
 </div>
+
+**English** · [简体中文](README.zh-CN.md)
+
 
 ---
 
