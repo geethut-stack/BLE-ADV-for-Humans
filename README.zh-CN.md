@@ -332,7 +332,7 @@ HA_BLE_ADV=./ha-ble-adv python3 tools/gen_vectors2.py    # -> app/src/test/.../G
 ## 项目结构
 
 ```
-app/src/main/java/com/lampremote/
+app/src/main/java/com/BLE ADV for Humans/
   MainActivity / ControlActivity / AddDeviceActivity / InfoActivity / BaseActivity   界面 + 侧边栏
   Ui.kt                         主题化界面工具包（卡片、粗滑块、分隔线）
   LampController.kt             用户操作 -> 实体逻辑 -> codec -> 广播器
