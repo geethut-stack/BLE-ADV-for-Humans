@@ -13,7 +13,7 @@ No account · No internet · No server · English + [简体中文](README.zh-CN.
 ![Status](https://img.shields.io/badge/status-early%20release-yellow)
 
 <p align="center">
-  <a href="https://github.com/geethut-stack/BLE-ADV-for-Humans/releases/download/0.1.0/app-debug.apk">
+  <a href="https://github.com/geethut-stack/BLE-ADV-for-Humans/releases/download/0.2.0/app-debug.apk">
     <img alt="Download APK" src="https://img.shields.io/badge/Download-APK_0.1.0-9A5B00?style=for-the-badge&logo=android&logoColor=white">
   </a>
 </p>
